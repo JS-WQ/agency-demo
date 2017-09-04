@@ -9,6 +9,8 @@ h1,h2,h3,h4{font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-se
 .topbar .nav{margin-left:495px;}
 .topbar .nav ol{display: flex;color: #fff;}
 .topbar .nav ol li{margin-right: 26px;font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 14px;}
+.topbar .nav ol li a{text-decoration: none;color: #fff;}
+.topbar .nav ol li a:hover{color:#fed136;}
 .content{}
 #poster{background:url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/header-bg.jpg);height: 757px;background-position:0 -245px;}
 #poster .post-text{color: #fff;text-align: center;padding-top: 300px;}
@@ -69,4 +71,13 @@ h1,h2,h3,h4{font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-se
 #contact .contact-ct .sendbtn input{padding: 25px 20px;background:#fed136;font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 18px;font-weight: 700;color: #fff;border:none;border-radius: 4px;}
 #copyright .copy-ct{display: flex;justify-content: space-between;padding:40px 100px;font-size: 14px;line-height: 40px;}
 #copyright .copy-ct span{font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;}
-#copyright .copy-ct div a{text-decoration: none;color: #fed136;margin-right: 12px;}
+#copyright .copy-ct .privacy a{text-decoration: none;color: #fed136;margin-right: 12px;}
+#copyright .copy-ct .tww ol{display: flex;}
+#copyright .copy-ct .tww li{margin: 0 7px;}
+#copyright .copy-ct .tww .share-btn {width:40px;height:40px;display: inline-block;overflow: hidden;background:url('http://ww1.sinaimg.cn/large/0060lm7Tly1fj7o8a3ohkj304402m0sv.jpg') no-repeat;transition: background-position 1s;}
+#copyright .copy-ct .tww .share-btn.twitter:hover{background-position:0 -54px; }
+#copyright .copy-ct .tww .share-btn.facebook{background-position: -54px 0;}
+#copyright .copy-ct .tww .share-btn.facebook:hover{background-position: -54px -54px;}
+#copyright .copy-ct .tww .share-btn.linkedin{background-position: -108px 0;}
+#copyright .copy-ct .tww .share-btn.linkedin:hover{background-position: -108px -54px;}
+
