@@ -72,12 +72,12 @@ h1,h2,h3,h4{font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-se
 #copyright .copy-ct{display: flex;justify-content: space-between;padding:40px 100px;font-size: 14px;line-height: 40px;}
 #copyright .copy-ct span{font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;}
 #copyright .copy-ct .privacy a{text-decoration: none;color: #fed136;margin-right: 12px;}
-#copyright .copy-ct .tww ol{display: flex;}
-#copyright .copy-ct .tww li{margin: 0 7px;}
-#copyright .copy-ct .tww .share-btn {width:40px;height:40px;display: inline-block;overflow: hidden;background:url('http://ww1.sinaimg.cn/large/0060lm7Tly1fj7o8a3ohkj304402m0sv.jpg') no-repeat;transition: background-position 1s;}
-#copyright .copy-ct .tww .share-btn.twitter:hover{background-position:0 -54px; }
-#copyright .copy-ct .tww .share-btn.facebook{background-position: -54px 0;}
-#copyright .copy-ct .tww .share-btn.facebook:hover{background-position: -54px -54px;}
-#copyright .copy-ct .tww .share-btn.linkedin{background-position: -108px 0;}
-#copyright .copy-ct .tww .share-btn.linkedin:hover{background-position: -108px -54px;}
+#copyright .copy-ct .share ol{display: flex;}
+#copyright .copy-ct .share li{margin: 0 7px;}
+#copyright .copy-ct .share .share-btn {width:40px;height:40px;display: inline-block;overflow: hidden;background:url('http://ww1.sinaimg.cn/large/0060lm7Tly1fj7o8a3ohkj304402m0sv.jpg') no-repeat;transition: background-position 1s;}
+#copyright .copy-ct .share .share-btn.tw:hover{background-position:0 -54px; }
+#copyright .copy-ct .share .share-btn.fk{background-position: -54px 0;}
+#copyright .copy-ct .share .share-btn.fk:hover{background-position: -54px -54px;}
+#copyright .copy-ct .share .share-btn.ln{background-position: -108px 0;}
+#copyright .copy-ct .share .share-btn.ln:hover{background-position: -108px -54px;}
 
